@@ -17,7 +17,7 @@ public class ForLoops
             System.out.println("j is equal to " + j);
         }
         
-        for (int k  = 10; k > 0; k -= 3) {
+        for (int k  = 10; k != 0; k -= 3) {
             System.out.println("k is equal to " + k);
         }
     }
